@@ -8,7 +8,7 @@ change-charset-database
 	$host = "127.0.0.1";
     $user = "root";
     $password = "";
-    $dbase = "h_fornodeminas_site";
+    $dbase = "database";
 
     mysql_connect($host,$user,$password) or die ('Erro ao conectar na base de dados');
     mysql_select_db($dbase);
